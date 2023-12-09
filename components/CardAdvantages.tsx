@@ -23,7 +23,7 @@ export default function CardAdvantage({ text, title, type }: Props) {
       onMouseLeave={() => {
         setIsHidden(true);
       }}
-      className="bg-white rounded-lg flex flex-col items-start p-8 md:mx-5 w-full hover:shadow-2xl card1"
+      className="bg-white rounded-lg mt-10 flex flex-col items-start p-8 md:mx-5 w-full hover:shadow-2xl hover:mt-5 duration-500"
     >
       {type == 1 && (
         <FontAwesomeIcon

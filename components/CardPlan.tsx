@@ -7,7 +7,7 @@ interface Props {
 }
 export default function CardPlan({ name, type }: Props) {
   return (
-    <div className="bg-white p-8 hover:shadow-2xl  rounded-lg mt-20">
+    <div className="bg-white p-8 hover:shadow-2xl hover:mt-16 rounded-lg mt-20 duration-500">
       {type == 1 && (
         <FontAwesomeIcon
           icon={faGamepad}

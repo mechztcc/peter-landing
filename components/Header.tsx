@@ -50,13 +50,13 @@ export default function Header() {
             bolso.
           </span>
 
-          <button className="bg-blue-400 hover:shadow-blue-300 shadow-2xl p-3 rounded-lg text-white font-semibold hover:bg-blue-500 mt-10">
+          <button className="bg-blue-400 hover:shadow-blue-300 shadow-2xl py-3 px-10 rounded-lg text-white font-semibold hover:bg-blue-500 mt-10 hover:mt-8 duration-500">
             CONHECER PLANOS
           </button>
         </div>
 
         <div className="flex justify-center items-start">
-          <img className="w-full" src="/image-home.png" alt="" />
+          <img className="w-full mt-20 md:mt-0" src="/image-home.png" alt="" />
         </div>
       </div>
 
