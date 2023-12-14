@@ -9,3 +9,11 @@ body {
 }
 
 
+.overflow {
+  background-color: rgba(117, 133, 133, 0.41);
+}
+
+.modal {
+  min-width: 300px;
+  min-height: 250px;
+}

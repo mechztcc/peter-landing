@@ -1,8 +1,6 @@
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faRightToBracket,
-} from "@fortawesome/free-solid-svg-icons";
+import ModalProfile from "./ModalProfile";
 
 export default function Navbar() {
   return (
@@ -14,10 +12,7 @@ export default function Navbar() {
           <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
           Contato
         </span>
-        <span className=" text-blue-400 hover:shadow-blue-300 hover:shadow-2xl text-lg cursor-pointer hover:bg-blue-400 hover:rounded-md p-2 hover:text-white font-semibold">
-          <FontAwesomeIcon icon={faRightToBracket} className="mr-2" />
-          Entrar
-        </span>
+        <ModalProfile />
       </div>
     </div>
   );
